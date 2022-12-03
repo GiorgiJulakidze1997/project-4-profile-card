@@ -1,0 +1,126 @@
+body {
+    background-color: #19a1ae;
+    background-image: url(/bg-pattern-top.svg), url(/bg-pattern-bottom.svg);
+    background-position: right 700px bottom 40vh, left 50vw top 50vh;
+    background-repeat: no-repeat, no-repeat;
+  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    display: block;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .main-div {
+    height: 421px;
+    width: 350px;
+  
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .avatar {
+    border-radius: 60px;
+    border: 8px solid white;
+  
+  }
+  
+  .second-div {
+    display: flex;
+    justify-content: center;
+    margin-top: -43px;
+  }
+  
+  .texts-div {
+    display: flex;
+    justify-content: center;
+  
+    gap: 10px;
+    margin-top: 18px;
+
+  }
+  
+  .strong-style-1 {
+    font-family: "Kumbh Sans", sans-serif;
+  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  
+  .span-text-1 {
+    color: #6b7082;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  
+  .last-texts-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 6px;
+  }
+  
+  .paragraph-1 {
+    color: #6b7082;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  
+  .hr {
+
+    border-top: 3px solid #e8e9ec;
+  
+    height: 1px;
+    width: 350px;
+    left: 0px;
+    top: 285px;
+    border-radius: 0px;
+  }
+  
+  .spans-div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+    /* texts size, fonts ...  */
+    color: #2e3349;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  
+  .spans-div-2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+    color: #6b7082;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
